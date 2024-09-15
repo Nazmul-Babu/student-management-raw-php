@@ -1,13 +1,7 @@
 <?php 
-require 'Animal.php';
-require 'Cat.php';
-require 'Dog.php';
-require 'AnimalShelter.php';
-$cat = new Cat();
-$dog = new Dog();
-$animals = [$cat,$dog];
-foreach($animals as $animal){
-    $animal->makeSound();
-}
-$shelter = new AnimalShelter($cat);
-$shelter->adopt();
+require "./classes/Class10.php";
+
+$class10 = new Class10();
+$students = $class10->all_students();
+$find_student_by_roll = $class10->get_roll_number_one(3);
+print_r($find_student_by_roll);

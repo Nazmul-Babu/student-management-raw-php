@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "age": 12,
+    "class": 10,
+    "roll": 1,
+    "name": "Atiqullah Ador"
+  },
+  {
+    "id": 2,
+    "age": 12,
+    "class": 10,
+    "roll": 2,
+    "name": "Ankon"
+  },
+  {
+    "id": 1,
+    "age": 12,
+    "class": 10,
+    "roll": 3,
+    "name": "Nazmul"
+  }
+]
